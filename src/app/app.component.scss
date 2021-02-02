@@ -1,0 +1,19 @@
+:host {
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid black;
+  background: rgb(25, 183, 224);
+  background: radial-gradient(
+    circle,
+    rgba(25, 183, 224, 0.3438202247191011) 0%,
+    rgba(97, 97, 198, 0.7707865168539326) 64%,
+    rgba(12, 12, 217, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.title {
+  color: rgba(12, 12, 217, 1);
+}
